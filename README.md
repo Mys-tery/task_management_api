@@ -26,12 +26,3 @@ This project was built as part of the **ALX Backend Web Development Capstone**.
 - **Django Filter**
 
 ---
-
-## ⚙️ Installation & Setup
-
-### 1️⃣ Clone Repository
-
-```bash
-git clone https://github.com/Mys-tery/task_management_api.git
-cd task_management_api
-```
