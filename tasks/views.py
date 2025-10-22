@@ -93,9 +93,9 @@ class TaskListCreateView(generics.ListCreateAPIView):
     permission_classes = [permissions.IsAuthenticated]
     pagination_class = DefaultPagination
     filter_backends = [DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter]
-    filterset_fields = ['is_completed', 'priority']
+    filterset_fields = ['is_completed']
     search_fields = ['title', 'description']
-    ordering_fields = ['created_at', 'updated_at', 'priority']
+    ordering_fields = ['created_at', 'updated_at']
 
     def get_queryset(self):
         return Task.objects.filter(user=self.request.user).order_by('-created_at')

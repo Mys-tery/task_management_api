@@ -1,32 +1,37 @@
-# Task Management API
+# 🧠 Task Management API
 
-A Django REST Framework-based API for managing tasks, users, and comments.  
-This project was built as part of the **ALX Backend Web Development Capstone**
-
-## Features
-
-- 🔐 User Registration and Login (Token Authentication)
-- 🧾 Create, Update, Delete, and Retrieve Tasks
-- 💬 Add Comments to Tasks
-- 🔍 Filter Tasks by status, priority, or due date
-- ⚙️ Pagination for large datasets
-- 🧑‍💻 Permissions: Only task owners can modify or delete their tasks
+A Django REST Framework-based API for managing **tasks**, **users**, and **comments**, with activity tracking and token-based authentication.  
+This project was built as part of the **ALX Backend Web Development Capstone**.
 
 ---
 
-## Tech Stack
+## 🚀 Features
+
+- 🔐 **User Authentication** — Register, login, and access endpoints via tokens.
+- 🧾 **Task Management** — Create, read, update, and delete personal tasks.
+- 💬 **Comment System** — Add comments on specific tasks.
+- 🧩 **Activity Tracking** — Logs every user action (task creation, update, deletion).
+- 🔍 **Filtering & Search** — Filter tasks by completion status, priority, and due date.
+- ⚙️ **Pagination** — Handles large datasets efficiently.
+- 🧑‍💻 **Permissions** — Only task owners can modify or delete their own tasks.
+
+---
+
+## 🧩 Tech Stack
 
 - **Python 3.12+**
 - **Django 5**
-- **Django REST Framework**
-- **SQLite (Default)**
+- **Django REST Framework (DRF)**
+- **SQLite (default database)**
 - **Django Filter**
 
-Installation & Setup
+---
 
-Clone Repository
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/task_management_api.git
+git clone https://github.com/Mys-tery/task_management_api.git
 cd task_management_api
 ```
